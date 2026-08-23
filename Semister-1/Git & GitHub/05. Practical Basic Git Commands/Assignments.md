@@ -35,8 +35,7 @@
 
 **Submission:** Written answers
 **Answers**
-
-
+<img width="722" height="1280" alt="WhatsApp Image 2026-08-23 at 9 13 11 PM" src="https://github.com/user-attachments/assets/e056ad31-1f1a-405e-9b36-9088ce6c1c32" />
 
 ---
 
