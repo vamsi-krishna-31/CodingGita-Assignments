@@ -1,0 +1,134 @@
+Section A: Short Answer Questions
+
+Q1. What is JavaScript?
+Ans: JavaScript is a high-level programming language used to make web pages interactive and dynamic.
+
+Q2. Who created JavaScript and in which year?
+Ans: Brendan Eich created JavaScript in 1995.
+
+Q3. What was the original name of JavaScript?
+Ans: Its original name was Mocha, later changed to LiveScript and then JavaScript.
+
+Q4. Is JavaScript the same as Java? Give one major difference.
+Ans: No. JavaScript is mainly used for web development, while Java is a general-purpose programming language.
+
+Q5. What does high-level programming language mean?
+Ans: It is a language that is easy for humans to read and write and hides complex computer operations.
+
+Q6. Is JavaScript compiled or interpreted?
+Ans: JavaScript is traditionally interpreted, but modern engines use Just-In-Time (JIT) compilation for better performance.
+
+Q7. JavaScript engines:
+Chrome: V8
+Firefox: SpiderMonkey
+Safari: JavaScriptCore
+
+Q8. What is Dynamic Typing?
+Ans: A variable can hold different types of values without specifying its type explicitly.
+
+Q9. Static vs Dynamic website?
+Ans: A static website shows fixed content, while a dynamic website can change content based on user actions or data.
+
+Q10. Three pillars of Front-end Web Development:
+HTML: Structure of the webpage.
+CSS: Styling and design.
+JavaScript: Behavior and interactivity.
+
+Q11. Difference between Frontend and Backend?
+Ans: Frontend is what users see and interact with; Backend handles server-side logic, databases, and APIs.
+
+Q12. What is Node.js?
+Ans: Node.js is a runtime environment that allows JavaScript to run outside the browser, mainly on servers.
+
+Q13. What is ECMAScript?
+Ans: ECMAScript is the standard/specification that defines JavaScript. JavaScript is an implementation of the ECMAScript standard.
+
+
+
+Section B: True or False
+
+1. False — JavaScript is a **dynamically typed** language.
+
+2. False — JavaScript can run **inside and outside the browser** (e.g., using Node.js).
+
+3. False — **HTML** provides structure; **JavaScript** is responsible for behavior.
+
+4. True ✅
+
+5. False — JavaScript is **case-sensitive**.
+
+6. False — `let name` and `let Name` are **different variables**.
+
+7. False — ECMAScript is a **standard/specification** for scripting languages, implemented by JavaScript.
+
+8. False — React, Angular, and Vue.js are mainly used for **Frontend development**.
+
+
+
+
+Section C: Fill in the Blanks
+
+1. JavaScript was created by Brendan Eich in the year 1995.
+
+2. The three technologies used in Front-end development are HTML, CSS, and JavaScript.
+
+3. JavaScript engines: Chrome uses V8, Firefox uses SpiderMonkey.
+
+4. In the restaurant analogy: Customer = Frontend, Waiter = API, Chef = Backend.
+
+5. JavaScript file extension is .js.
+
+
+
+Section D: Conceptual Questions
+
+Q14. Static vs Dynamic Website
+
+Static: Fixed content that usually does not change automatically.
+Example: Portfolio website.
+
+Dynamic: Content can change based on users or data.
+Example: Instagram.
+
+
+Q15. Two features of JavaScript
+
+1. Interactivity: Handles clicks, forms, buttons, etc.
+2. Dynamic content: Can change HTML and CSS without reloading the page.
+
+
+Q16. Four areas where JavaScript is used
+
+1. Server-side: Node.js
+2. Mobile apps: React Native
+3. Desktop apps: Electron
+4. Game development: Phaser
+
+
+Q17. Internal vs External JavaScript
+
+Internal: JavaScript is written directly inside the HTML using <script>.
+
+External: JavaScript is written in a separate .js file and linked to HTML.
+
+Advantages of external JS:
+
+1. Code can be reused on multiple HTML pages.
+2. Keeps HTML code clean and organized.
+
+
+Q18. Frontend vs Backend - Restaurant Analogy
+
+Frontend: Like the dining area/menu that customers see and interact with.
+
+Backend: Like the kitchen, where the actual processing and preparation happens.
+
+API: Like the waiter, carrying requests between the customer and kitchen.
+
+
+Q19. Why should a beginner learn JavaScript?
+
+1. It makes websites interactive.
+2. It is widely used in web development.
+3. It can be used for frontend and backend development.
+4. It has many popular frameworks like React, Angular, and Vue.js.
