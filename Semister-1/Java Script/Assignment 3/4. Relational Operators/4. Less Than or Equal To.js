@@ -1,4 +1,4 @@
-// * * * //  4] Greater than or Equal to ( <= ):
+// * * * //  4] Less than or Equal to ( <= ):
 
 // 1. Maximum speed limit is 60 km/h. A vehicle is travelling at 60 km/h. Check if it is within the limit.
 
