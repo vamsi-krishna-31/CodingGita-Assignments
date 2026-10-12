@@ -1,4 +1,4 @@
-// * * * //  3] Less than or Equal to ( >= ):
+// * * * //  3] Greater than or Equal to ( >= ):
 
 // 1. Minimum marks required for distinction is 75. A student scored 75. Check if the student gets distinction.
 
