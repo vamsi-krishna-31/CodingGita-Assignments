@@ -70,7 +70,7 @@ for (let i = 1; i <= 8; i++) {
 
 // * * // PART B: FOR LOOP 
 
-  Q1. Count Temperatures Above 30°C
+  // Q1. Count Temperatures Above 30°C
  let temperatures = [28, 32, 25, 40, 18, 35];
  let count = 0;
  for (let i = 0; i < temperatures.length; i++) {
@@ -80,7 +80,7 @@ for (let i = 1; i <= 8; i++) {
  }
  console.log(count);
 
-  Q2. Calculate the Sum of Digits of a Number
+  // Q2. Calculate the Sum of Digits of a Number
  let num = 4729;
  let sum = 0;
  for (; num > 0; num = Math.floor(num / 10)) {
@@ -88,14 +88,14 @@ for (let i = 1; i <= 8; i++) {
  }
  console.log(sum);
 
-  Q3. Print Numbers Divisible by 3 and 5 but Not by 7
+  // Q3. Print Numbers Divisible by 3 and 5 but Not by 7
  for (let i = 1; i <= 100; i++) {
      if (i % 3 === 0 && i % 5 === 0 && i % 7 !== 0) {
          console.log(i);
      }
  }
 
-  Q4. Extract Consonants from a String
+  // Q4. Extract Consonants from a String
  let str = "JavaScript";
  let result = "";
  for (let i = 0; i < str.length; i++) {
@@ -109,7 +109,7 @@ for (let i = 1; i <= 8; i++) {
  }
  console.log(result);
 
-  Q5. Find the Largest Number in an Array
+  // Q5. Find the Largest Number in an Array
  let arr = [12, 45, 7, 89, 34, 67];
  let largest = arr[0];
  for (let i = 1; i < arr.length; i++) {
@@ -119,7 +119,7 @@ for (let i = 1; i <= 8; i++) {
  }
  console.log(largest);
 
-  Q6. Check Whether a Number Is a Perfect Number
+  // Q6. Check Whether a Number Is a Perfect Number
  let num = 28;
  let sum = 0;
  for (let i = 1; i < num; i++) {
@@ -133,14 +133,14 @@ for (let i = 1; i <= 8; i++) {
      console.log("Not a Perfect Number");
  }
 
-  Q7. Print the Powers of 2 Series
+  // Q7. Print the Powers of 2 Series
  let num = 1;
  for (let i = 1; i <= 8; i++) {
      console.log(num);
      num = num * 2;
  }
 
-  Q8. Print the First 20 Fibonacci Numbers (Optional)
+  // Q8. Print the First 20 Fibonacci Numbers (Optional)
  let a = 0;
  let b = 1;
  for (let i = 1; i <= 20; i++) {
@@ -150,7 +150,7 @@ for (let i = 1; i <= 8; i++) {
      b = c;
  }
 
-  Q9. Calculate Average Score and Count Students Above Average
+  // Q9. Calculate Average Score and Count Students Above Average
  let scores = [45, 78, 90, 32, 56, 88];
  let sum = 0;
  for (let i = 0; i < scores.length; i++) {
@@ -166,7 +166,7 @@ for (let i = 1; i <= 8; i++) {
  console.log("Average:", average);
  console.log("Above average:", count);
 
-  Q10. Convert a Decimal Number to Binary (Optional)
+  // Q10. Convert a Decimal Number to Binary (Optional)
  let num = 13;
  let binary = "";
  if (num === 0) {
@@ -178,9 +178,9 @@ for (let i = 1; i <= 8; i++) {
 
  console.log(binary);
 
-// * * // PART C: BREAK INSIDE A FOR LOOP
+// * * // PART C-a]: BREAK INSIDE A FOR LOOP
 
-  Q1. Find the First Occurrence of 7 in an Array
+  // Q1. Find the First Occurrence of 7 in an Array
  let arr = [3, 5, 2, 7, 9, 7];
  for (let i = 0; i < arr.length; i++) {
      if (arr[i] === 7) {
@@ -189,12 +189,12 @@ for (let i = 1; i <= 8; i++) {
      }
  }
 
-  Q2. Password Checker with Five Attempts
- let correctPassword = "1234";
+  // Q2. Password Checker with Five Attempts
+ let Password = "1234";
  let access = false;
  for (let i = 1; i <= 5; i++) {
-     let password = prompt("Enter password");
-    if (password === correctPassword) {
+     let enteredPassword = prompt("Enter password: ");
+    if (enteredPassword === Password) {
          console.log("Access granted");
          access = true;
          break;
@@ -204,7 +204,7 @@ for (let i = 1; i <= 8; i++) {
      console.log("Account locked");
  }
 
-  Q3. Stop Adding Numbers When the Sum Exceeds 100
+  // Q3. Stop Adding Numbers When the Sum Exceeds 100
  let sum = 0;
  for (let i = 1; ; i++) {
      sum += i;
@@ -214,8 +214,8 @@ for (let i = 1; i <= 8; i++) {
      }
  }
 
-  Q4. Find the First Name Starting with S
- let names = ["Aman", "Rahul", "Sneha", "Sahil", "Priya"];
+  // Q4. Find the First Name Starting with S
+ let names = ["Vamsi", "Krishna", "Pinky", "Sai", "Priya"];
  for (let i = 0; i < names.length; i++) {
      if (names[i][0] === "S") {
          console.log(names[i]);
@@ -223,7 +223,7 @@ for (let i = 1; i <= 8; i++) {
      }
  }
 
-  Q5. Stop at the First Perfect Square Greater Than 20
+  // Q5. Stop at the First Perfect Square Greater Than 20
  for (let i = 1; i <= 50; i++) {
      if (i > 20 && i === 25) {
          break;
@@ -231,9 +231,9 @@ for (let i = 1; i <= 8; i++) {
      console.log(i);
  }
 
-  // * * // PART C: CONTINUE INSIDE A FOR LOOP
+  // * * // PART C-b]: CONTINUE INSIDE A FOR LOOP
 
-Q1. Skip Numbers Divisible by 4
+// Q1. Skip Numbers Divisible by 4
  for (let i = 1; i <= 30; i++) {
      if (i % 4 === 0) {
          continue;
@@ -241,8 +241,8 @@ Q1. Skip Numbers Divisible by 4
      console.log(i);
  }
 
-  Q2. Calculate the Sum of Positive Numbers
- let arr = [10, -5, 20, -8, 15, -2];
+  // Q2. Calculate the Sum of Positive Numbers
+ let arr = [11, -6, 22, -8, 18, -1];
  let sum = 0;
  for (let i = 0; i < arr.length; i++) {
      if (arr[i] <= 0) {
@@ -252,7 +252,7 @@ Q1. Skip Numbers Divisible by 4
  }
  console.log(sum);
 
-  Q3. Print Characters Without Spaces
+  // Q3. Print Characters Without Spaces
  let str = "Hello World";
  for (let i = 0; i < str.length; i++) {
      if (str[i] === " ") {
@@ -261,7 +261,7 @@ Q1. Skip Numbers Divisible by 4
      console.log(str[i]);
  }
 
-  Q4. Multiplication Table of 6, Skipping Products Divisible by 5
+  // Q4. Multiplication Table of 6, Skipping Products Divisible by 5
  for (let i = 1; i <= 12; i++) {
      let product = 6 * i;
      if (product % 5 === 0) {
@@ -270,7 +270,7 @@ Q1. Skip Numbers Divisible by 4
      console.log("6 x " + i + " = " + product);
  }
 
-  Q5. Print Ages Eligible for Voting
+  // Q5. Print Ages Eligible for Voting
  let ages = [12, 18, 25, 15, 30, 17, 22];
  for (let i = 0; i < ages.length; i++) {
      if (ages[i] < 18) {
