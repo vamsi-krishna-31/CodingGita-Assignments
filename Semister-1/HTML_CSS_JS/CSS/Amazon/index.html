@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            background-color: #121921;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .leftnav{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: space-between;
+        }
+        .location-box{
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .location{
+            height: 40px;
+            width: 40px;
+        }
+        .first{
+            color: rgb(156, 148, 148);
+            font-size: 12px;
+        }
+        .second{
+            font-size: 18px;
+            margin-top: 0;
+            color: white;
+        }
+        .centernav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #one{
+            width: 50px;
+            height: 50px;
+            background-color: darkgray;
+            padding-left: 2px;
+        }
+        #two{
+            width: 40vw;
+            background-color: white;
+        }
+        #three{
+            width: 50px;
+            background-color: #FBBE67;
+            /* padding-left: 2px; */
+            align-items: center;
+            justify-content: space-around;
+        }
+        .search{
+            align-items: center;
+            border-radius: 10%;
+        }
+        .rightnav{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        #cart{
+            color: white;
+        }
+        .downnav{
+            background-color: #243040;
+            display: flex;
+            justify-content: space-between;
+        }
+        .left{
+            color: white;
+        }
+        .cont{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 60vw;
+            padding-left: 2px;
+        }
+        .cont2{
+            display: flex;
+            align-items: center;
+            color: white;
+            justify-content: space-between;
+            width: 30vw;
+        }
+        .main{
+            background-image: url(assets/background\ picture.png);
+            height: 90vh;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .top{
+            display: flex;
+            height: 7vh;
+            width: 95vw;
+            padding-top: 150px;
+            padding-left: 30px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .container3{
+            background-color: white;
+            color: black;
+            height: 150px;
+            width: 400px;
+            margin-left: 30px;
+            margin-top: 100px;
+        }
+        .container{
+            background-color: white;
+            color: black;
+            height: 420px;
+            width: 400px;
+            margin-left: 30px;
+            margin-top: 100px;
+        }
+        a{
+            text-decoration: none;
+            font-size: large;
+        }
+        .container2{
+            background-color: white;
+            color: black;
+            height: 420px;
+            width: 400px;
+            margin-left: 30px;
+            margin-top: 100px;
+        }
+        #img26 img{
+            height: 310px;
+            padding: 0px;
+        }
+        .contents{
+            display: flex;
+        }
+        .cap{
+            font-size: 25px;
+            align-items: center;
+            padding: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #img26{
+            padding: 20px;
+            height: 300px;
+            background-repeat: no-repeat;
+            margin-left: 18px;
+        }
+        .sec{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .in1 img{
+            height: 100px;
+            width: 150px;
+        }
+        .in2 img{
+            height: 100px;
+            width: 150px;
+        }
+        .in3 img{
+            height: 100px;
+            width: 180px;
+        }
+        .in4 img{
+            height: 100px;
+            width: 180px;
+        }
+        .container3 button{
+            background-color: #FED813;
+            padding: 10px 90px 10px 90px;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        .container3 img{
+            padding-left: 30px;
+            padding-top: 10px;
+        }
+        .btn{
+            padding: 10px 60px 10px 60px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="leftnav">
+            <img src="assets/logo.png" alt="">
+            <div class="location-box">
+                <img src="assets/location.png" alt="" class="location"> 
+                <span>
+                <p class="first">Hello</p>
+                <p class="second">Select Your Address</p>
+            </span>
+            </div>
+        </div>
+        <div class="centernav">
+            <table class="search">
+                <tr>
+                    <td id="one">All <img src="assets/down arrow.png" alt=""></td>
+                    <td id="two"></td>
+                    <td id="three"> <img src="assets/search icon.png" alt=""></td>
+                </tr>
+            </table>
+        </div>
+        <div class="rightnav">
+            <img src="assets/indian flag.png" alt=""> <img src="assets/down arrow.png" alt="">
+            <span>
+                <p class="first">Hello, Sign In</p>
+                <p class="second">Account & Lists<img src="assets/down arrow.png" alt=""></p>
+            </span>
+            <span>
+                <p class="second">Returns</p>
+                <p class="second">& Orders</p>
+            </span>
+            <img src="assets/cart icon.png" alt=""> <h3 id="cart">Cart</h3>
+        </div>
+    </nav>
+    <section >
+        <nav class="downnav">
+            <div class="left">
+                <div class="cont">
+            <img src="assets/ham burger icon.png" alt="">
+                <p>All</p> <p>Best Sellers</p> <p>Mobiles</p> <p>Customer Service</p> <p>Today's Deals</p> <p>Fashion</p> <p>Electronics</p> <p>Books</p> <p>Prime <img src="assets/down arrow.png" alt=""></p> <p>New Releases</p> <p>Home & Kitchen</p> <p>Amazon Pay</p></div>
+            </div>
+            <div class="cont2"><img src="assets/lion.png" alt="">
+                <img src="assets/amazon design.png" alt="">23rd - 24th july<img src="assets/top bar right.png" alt="">
+        </div>
+        </nav>
+    </section>
+    <section class="main">
+        <div class="top">
+            <img src="assets/left arrow.png" alt="">
+            <img src="assets/right arrow.png" alt="">
+        </div>
+<div class="contents">
+        <div class="container">
+            <div class="cap">Upgrader Your Home | Amazon Brands & More</div>
+            <div class="sec">
+            <div class="in1"><img src="assets/image 17.png" alt="">
+            <br>
+            Smart LED TVs
+            </div>
+            <div class="in2"><img src="assets/image 18.png" alt="">
+            <br>
+            Appliances
+            </div>
+            <div class="in3"><img src="assets/image 20.png" alt="">
+            <br>
+            Furniture
+            </div>
+            <div class="in4"><img src="assets/image 19.png" alt="">
+            <br>
+            Kitchen products
+            </div>
+        </div><br>
+            <div><a href="" id="more">Shop now</a></div>
+        </div>
+
+        <div class="container">
+            <div class="cap">Revamp your home in style</div><br><br>
+            <div class="sec">
+            <div class="in1"><img src="assets/image 25.png" alt="">
+            <br>
+            Bedsheets, curtains & more
+            </div>
+            <div class="in2"><img src="assets/image 24.png" alt="">
+            <br>
+            Home decoration
+            </div>
+            <div class="in3"><img src="assets/image 22.png" alt="">
+            <br>
+            Home storage
+            </div>
+            <div class="in4"><img src="assets/image 21.png" alt="">
+            <br>
+            Lighting solutions
+            </div>
+        </div><br>
+        <div><a href="" id="more">Explare all</a></div>
+        </div>
+
+        <div class="container2">
+            <div class="cap">Up to 70% off | Clearance store</div>
+            <div id="img26"><img src="assets/image 26.png" alt=""></div>
+            <div><a href="">see more</a></div>
+        </div>
+        <div>
+        <div class="container3">
+            <div class="cap">Sign in for your best experience</div>
+            <div class="btn"><button type="button">Sign in securely</button></div>
+        <img src="assets/image 28.png" alt="">
+
+</div>
+    </section>
+</body>
+</html>
